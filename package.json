@@ -28,7 +28,8 @@
     "bundle:web": "npx expo export --platform web",
     "serve:web": "npx server dist",
     "prebuild:clean": "npx expo prebuild --clean",
-    "prebuild": "npx expo prebuild"
+    "prebuild": "npx expo prebuild",
+    "ts:check": "tsc"
   },
   "dependencies": {
     "@expo-google-fonts/space-grotesk": "^0.2.2",
@@ -54,6 +55,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.6",
+    "react-native-bouncy-checkbox": "^3.0.7",
     "react-native-drawer-layout": "^4.0.0-alpha.1",
     "react-native-gesture-handler": "~2.12.0",
     "react-native-reanimated": "~3.3.0",

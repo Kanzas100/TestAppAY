@@ -22,7 +22,7 @@
       "assets/*": ["./assets/*"]
     }
   },
-  "extends": "expo/tsconfig.base",
+  "extends": "./node_modules/expo/tsconfig.base",
   "ts-node": {
     "compilerOptions": {
       // compilerOptions specified here will override those declared above,

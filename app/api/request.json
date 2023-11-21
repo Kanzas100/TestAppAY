@@ -1,0 +1,58 @@
+{
+    "testInfo": {
+        "title": "Тест по JS",
+        "timeLimit": 600
+
+    },
+    "questions": [{
+            "questionText": "Что выведет console.log(typeof null)?",
+            "options": ["'null'", "'object'", "'undefined'", "'function'"],
+            "correctAnswer": 1
+        },
+        {
+            "questionText": "Какой метод используется для преобразования JSON в объект JavaScript?",
+            "options": ["JSON.parse()", "JSON.stringify()", "JSON.toObject()", "JSON.toJS()"],
+            "correctAnswer": 0
+        },
+        {
+            "questionText": "Какой оператор используется для сравнения значений и типов?",
+            "options": ["==", "===", "equals()", "isEqual()"],
+            "correctAnswer": 1
+        },
+        {
+            "questionText": "Что делает 'use strict' в JavaScript?",
+            "options": ["Включает строгий режим", "Оптимизирует выполнение", "Включает режим совместимости", "Ничего не делает"],
+            "correctAnswer": 0
+        },
+        {
+            "questionText": "Как объявить переменную в JavaScript?",
+            "options": ["var myVar", "dim myVar", "var: myVar", "variable myVar"],
+            "correctAnswer": 0
+        },
+        {
+            "questionText": "Какой метод массива добавляет элементы в конец массива?",
+            "options": ["push()", "pop()", "shift()", "unshift()"],
+            "correctAnswer": 0
+        },
+        {
+            "questionText": "Какой метод используется для создания нового массива из элементов, прошедших проверку?",
+            "options": ["filter()", "map()", "forEach()", "reduce()"],
+            "correctAnswer": 0
+        },
+        {
+            "questionText": "Какой объект используется для работы с датами и временем в JavaScript?",
+            "options": ["Time", "Date", "Moment", "DateTime"],
+            "correctAnswer": 1
+        },
+        {
+            "questionText": "Какое ключевое слово используется для определения констант?",
+            "options": ["var", "let", "const", "static"],
+            "correctAnswer": 2
+        },
+        {
+            "questionText": "Какой метод используется для объединения двух или более массивов?",
+            "options": ["join()", "concat()", "merge()", "combine()"],
+            "correctAnswer": 1
+        }
+    ]
+}
